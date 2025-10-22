@@ -10,6 +10,7 @@ A lightweight, offline-first web application that detects **fake vs. real news h
 > 🔍 **No internet required after setup** • **No external APIs** • **Runs 100% on your machine**
 
 ![TruthGuard UI Preview](https://github.com/Malay-Shrivas/Truth-Guard/raw/main/screenshot.png)  
+![Screen Recording 2025-10-22 at 11 46 00 PM](https://github.com/user-attachments/assets/34689860-d216-4743-9c43-a86cb013cfe5)
 
 ---
 
