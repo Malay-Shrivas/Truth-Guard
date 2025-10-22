@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+        .result-box {
+            background: {% if result == 'Fake' %}#fff0f0{% else %}#f0fff0{% endif %};
+            border-left: 5px solid {% if result == 'Fake' %}#ff3b30{% else %}#30d158{% endif %};
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+        a { color: #007AFF; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Analysis Result</h1>
+    <p><strong>Headline:</strong> “{{ headline }}”</p>
+    
+    <div class="result-box">
+        <h2 style="margin-top: 0;">{{ result }}</h2>
+        <p>Confidence: <strong>{{ confidence }}%</strong></p>
+    </div>
+    
+    <a href="/">← Check another headline</a>
+</body>
+</html>
